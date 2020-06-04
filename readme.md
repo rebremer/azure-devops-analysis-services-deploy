@@ -15,7 +15,7 @@ Steps to take:
 - Run code below
 
 ```PowerShell
-# Get secrets from Azure DevOps
+# Get secrets from Azure DevOps Service Connection
 $application = $env:servicePrincipalId
 $tenant = $env:tenantId
 $rawsecret = $env:servicePrincipalKey
