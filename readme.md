@@ -1,7 +1,7 @@
-## PowerShell script to be run in Azure Devops to query and deploy models to Azure Analysis Services
+## Documentation how to deploy/query Azure analysis services from Azure DevOps Service Connection
 
-This documention describes how to create a CICD pipeline from Azure DevOps to Azure Analysis Services. It is based on this [blog](https://medium.com/swlh/you-me-ci-cd-deploying-azure-analysis-services-tabular-models-through-azure-pipelines-55370ac9fab3). This tutorial assumes basic knowledge of Azure and Azure DevOps. 
-- Crucial in this documentation is that no separate Service Principal needs to be created, everything is done using the service connection of Azure DevOps.
+This documention describes how to create a CICD pipeline from Azure DevOps to Azure Analysis Services. It is based on this [blog](https://medium.com/swlh/you-me-ci-cd-deploying-azure-analysis-services-tabular-models-through-azure-pipelines-55370ac9fab3) of [Liam Dunphy](https://medium.com/@liamejdunphy). This tutorial assumes basic knowledge of Azure and Azure DevOps. 
+- Crucial in this documentation is that no separate Service Principal needs to be created, **everything is done using the service connection of Azure DevOps**.
 
 Steps to take:
 
