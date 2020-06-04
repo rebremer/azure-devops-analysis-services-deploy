@@ -14,8 +14,7 @@ Steps to take:
 
 - Run code below
 
-
-  ```PowerShell
+```PowerShell
 # Get secrets from Azure DevOps
 $application = $env:servicePrincipalId
 $tenant = $env:tenantId
@@ -31,4 +30,4 @@ Set-AzAnalysisServicesServer -Name "<<your AAS>>" -ResourceGroupName "<<your AAS
 # Query Azure Analysis Service from Azure DevOps. Invoke-ASCmd can also be used to deploy models, see blog
 Invoke-ASCmd -Server:asazure://westeurope.asazure.windows.net/<<your aas service>> -Query:"<Discover xmlns='urn:schemas-microsoft-com:xml-analysis'><RequestType>DBSCHEMA_CATALOGS</RequestType><Restrictions /><Properties /></Discover>" -verbose -Credential $credentials -TenantId $tenant
 
- ```
+```
