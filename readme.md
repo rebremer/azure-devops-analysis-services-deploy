@@ -2,6 +2,7 @@
 
 This documention describes how to create a CICD pipeline from Azure DevOps to Azure Analysis Services. It is based on this [blog](https://medium.com/swlh/you-me-ci-cd-deploying-azure-analysis-services-tabular-models-through-azure-pipelines-55370ac9fab3) of [Liam Dunphy](https://medium.com/@liamejdunphy). This tutorial assumes basic knowledge of Azure and Azure DevOps. 
 - Crucial in this documentation is that no separate Service Principal needs to be created, **everything is done using the service connection of Azure DevOps**.
+- In this tutorial, Azure DevOps only queries Azure Analysis Service. For documentation how to create a full CICD pipeline, refer to blog above or this [DevOpsAnalysisServices git repo](https://github.com/frvigano/DevOpsAnalysisServices)
 
 Steps to take:
 
